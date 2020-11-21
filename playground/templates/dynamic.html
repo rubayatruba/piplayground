@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Dynamic page</title>
+    <link rel="stylesheet" href="static/style.css">
+  </head>
+  <body>                                                                                                                                                                                     
+    <h1 style="text-align:center;">Dynamic</h1>
+    <h3>{{greeting}}{{name}}</h3>
+    <h3>My favorate foods</h3>
+    {% for food in foods %} 
+    <p>{{food}}</p>
+    {% endfor %}
+    <img src="/static/img/pasta.jpag"/>
+</body>
+</html>
